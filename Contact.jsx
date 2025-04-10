@@ -31,9 +31,9 @@ function Contact() {
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
       }}
     >
-      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Contact Us</h2>
+      <h2 style={{ textAlign: 'center', marginBottom: '20px', fontFamily:'cursive' }}>Contact Us</h2>
       <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: '15px' }}>
+        <div style={{ marginBottom: '15px',fontFamily:'cursive' }}>
           <label htmlFor="name" style={{ display: 'block', marginBottom: '5px' }}>
             Name:
           </label>
