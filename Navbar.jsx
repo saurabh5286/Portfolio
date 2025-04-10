@@ -9,11 +9,13 @@ function Navbar() {
     {key:1, name:"Home"},
     {key:2, name:"Certificates"},
     {key:3, name:"Contact"},
+    {key:4, name:"Projects"},
+   
   ];
   return (
     <>
     <div>
-    <div className='flex justify-between m-3 bg-red-400 p-3 rounded-3xl shadow-md'>
+    <div className='flex justify-between m-3 bg-gray-400 p-3 rounded-3xl shadow-md'>
       <div className='flex items-center space-x-3'>
         <img className="w-10 h-10 rounded-full" src="/user.jpg" alt="" />
         <div className='items-center mb-1'>
